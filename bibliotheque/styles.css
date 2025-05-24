@@ -1,0 +1,121 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    padding: 20px;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button, .btn, a.action-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.delete-btn, .action-btn.red {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover, .action-btn.red:hover {
+    background-color: #da190b;
+}
+
+.validate-btn, .action-btn.green {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.validate-btn:hover, .action-btn.green:hover {
+    background-color: #45a049;
+}
+
+.back-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.back-btn:hover {
+    background-color: #da190b;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    padding: 5px;
+    margin: 5px 0;
+    width: 200px;
+}
+
+.error-message {
+    color: #f44336;
+    margin: 10px 0;
+}
+
+.success-message {
+    color: #4CAF50;
+    margin: 10px 0;
+}
+
+/* Style pour les liens simples */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.search-form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.search-form button {
+    padding: 8px 15px;
+}

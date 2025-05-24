@@ -1,0 +1,25 @@
+# Fichiers de connexion à la base de données (TRÈS IMPORTANT !)
+db_connect.php
+
+# Fichiers de configuration sensibles
+bibliotheque_config.php
+ecole_config.php
+
+# Fichiers de logs et de débogage
+debug.txt
+stream_log.txt
+
+# Fichiers de base de données (si ce n'est pas un fichier initial de schéma)
+bibliotheque.sql
+
+# Dossier d'uploads (peut contenir des fichiers utilisateur, ne pas versionner)
+/uploads/
+
+# Fichiers temporaires ou générés par le système d'exploitation/IDE
+.DS_Store      # macOS
+Thumbs.db     # Windows
+.idea/         # PhpStorm
+.vscode/       # VS Code
+*.swp         # Vim swap files
+*.bak         # Fichiers de sauvegarde
+~* # Fichiers temporaires Linux/Unix
